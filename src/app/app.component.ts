@@ -1,12 +1,17 @@
+import { LoginComponent } from './login/login.component';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [LoginComponent, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'my-angular-app';
+  title = 'my-angular-app 19 - kartik';
+  name=' miss used  !!'
+  x= 20;
+  y= 30;
+  
 }
